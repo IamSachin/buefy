@@ -154,7 +154,7 @@
                             // Currently datepicker only uses primary coloring
                             // Ensure indicator is visible when selected
                             &.is-primary {
-                                background-color: lighten($primary,15);
+                                background-color: $primary;
                             }
                         }
                     }
